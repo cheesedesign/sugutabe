@@ -1,0 +1,289 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  font-size: 62.5%; /* 16px * 62.5% = 10px */
+  width: 100%;
+  box-sizing: border-box;
+}
+body {
+  color: #333; /* RGB */
+  background-color: #f6f8f9;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+
+p {
+  font-size: 2rem;
+  line-height: 2;
+}
+.header {
+  height: 145px;
+  background-color: #c9a788;
+  width: 100%;
+}
+.header_img {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.section-top__image {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/24309865_s.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-message_text1 {
+  position: absolute;
+  right: 10%;
+  top:20%;
+  text-align: center;
+  background-color: #c9a788;
+  width: 60%;
+  padding: 10px;
+}
+.image-message_text1 h2 {
+  color: #cc3749;
+}
+.image-message_text2 {
+  position: absolute;
+  right: 5%;
+  top:40%;
+  text-align: center;
+  background-color: #c9a788;
+  width: 35%;
+  padding: 10px;
+}
+.top_logo {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,50%);
+  width: 20%;
+  background-color: #f6f8f9;
+  border-radius: 50%;
+  padding: 40px;
+}
+.logo_box {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("../img/logo縦.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.section-top__lead {
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 200px;
+  text-align: center;
+}
+.section-top__lead p {
+  font-size: 3rem;
+  display: inline-block;
+  writing-mode: vertical-rl;
+}
+.section-menu {
+  width: 70%;
+  margin: 0 auto;
+}
+.menu {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu_text {
+  width: 40%;
+}
+.section-menu_title {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.section-menu_name {
+  margin-bottom: 50px;
+}
+
+.section-menu_price {
+  margin-top: 20px;
+}
+.menu_img {
+  width: 50%;
+}
+.menu_img img {
+  width: 100%;
+  border-radius: 25% 10%;
+}
+.button {
+  border: 1px solid red;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.button_box {
+  margin: 0 auto;
+  background-color: red;
+  width: 60%;
+  color: white;
+  padding: 40px 40px;
+}
+.button_box p {
+  font-size: 3rem;
+}
+
+.section-reason {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.section-reason h2 {
+  writing-mode: vertical-rl;
+  text-decoration: underline;
+}
+.reason_box {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.reason_title {
+  text-align: center;
+  margin: 50px 0 60px;
+}
+
+.reason_title p {
+  text-decoration: underline;
+  margin-top: 40px;
+}
+.reason_desc {
+  width: 100%;
+  margin: 0 auto;
+  line-height: 2;
+  font-size: 2rem;
+}
+.organic {
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 70%;
+  text-align: center;
+}
+
+.organic_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.organic_figure {
+  width: 50%;
+  position: relative;
+}
+
+.organic_img {
+  width: 100%;
+}
+
+.percent {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.organic_text {
+  width: 40%;
+  margin-top: 200px;
+}
+.voice {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.voice h2 {
+  writing-mode: vertical-rl;
+  text-decoration: underline;
+}
+.voice_box {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.voice_text {
+  margin-top: 100px;
+  text-align: center;
+}
+.voice_text h2 {
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+.voice_text h3 {
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.voice_text p {
+  margin: 0 auto;
+  text-align: left;
+}
+.hinshitu {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.hinshitu h2 {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.hinshitu_box {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.hinshitu_box h3 {
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.hinshitu_box p {
+  text-align: left;
+}
+.question {
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 70%;
+}
+.question h2 {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.question_box {
+  display: flex;
+  margin-bottom: 50px;
+}
+.question_text {
+  margin-left: 40px;
+}
+
+.question_text h2 {
+  margin-top: 20px;
+}
+
+.footer {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 200px;
+  text-align: center;
+}
+.footer small {
+  padding-bottom: 20px;
+}
