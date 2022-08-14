@@ -25,6 +25,15 @@ p {
   font-size: 2rem;
   line-height: 2;
 }
+strong {
+  font-size: 2.4rem;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: #8dc7ee;
+}
 .header {
   height: 145px;
   background-color: #c9a788;
@@ -82,17 +91,23 @@ p {
   background-size:contain;
   background-repeat: no-repeat;
 }
+.section-top__lead-wrapper {
+  text-align: center;
+}
 .section-top__lead {
-  width: 80%;
+  display: inline-block;
   height: 350px;
   margin: 0 auto;
-  margin-top: 200px;
-  text-align: center;
+  margin-top: 300px;
+  text-align: left;
 }
 .section-top__lead p {
   font-size: 3rem;
   display: inline-block;
   writing-mode: vertical-rl;
+}
+.section-top__lead strong {
+  font-size: 3.4rem;
 }
 .section-menu {
   width: 70%;
