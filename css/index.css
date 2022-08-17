@@ -19,8 +19,6 @@ h3 {
   font-size: 2.4rem;
   line-height: 1.5;
 }
-
-
 p {
   font-size: 2rem;
   line-height: 2;
@@ -35,10 +33,90 @@ strong {
   color: #8dc7ee;
 }
 .header {
+  display: flex;
+  justify-content: space-between;
   height: 145px;
   background-color: #c9a788;
   width: 100%;
 }
+.header_menu {
+  align-items: center;
+  padding: 0 20px;
+  background: #c9a788;
+}
+
+
+.drawer_hidden {
+  display: none;
+}
+
+.drawer_open {
+  display: flex;
+  height: 120px;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.drawer_open span,
+.drawer_open span:before,
+.drawer_open span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 30px;
+  border-radius: 10px;
+  background: #333;
+  transition: 0.5s;
+  position: absolute;
+}
+
+.drawer_open span:before {
+  bottom: 8px;
+}
+.drawer_open span:after {
+  top: 8px;
+}
+#drawer_input:checked ~ .drawer_open span {
+  background: rgba(255, 255, 255, 0);
+}
+
+#drawer_input:checked ~ .drawer_open span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+#drawer_input:checked ~ .drawer_open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+.nav_content {
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%; 
+  z-index: 99;
+  background: #c9a788;
+  transition: .4s;
+  margin-top: 100px;
+  margin-left: 20px;
+  font-size: 2.4rem;
+}
+
+.nav_list li {
+  list-style: none;
+  padding-bottom: 40px;
+}
+
+
+#drawer_input:checked ~ .nav_content {
+  left: 50%;
+}
+
+
 .header_img {
   width: 80%;
   margin: 0 auto;
